@@ -1,0 +1,9 @@
+Write a python program to swap two values without the use of 3rd variable. 
+
+x=int(input())
+y=int(input())
+x=x^y
+y=x^y
+x=x^y
+print(x)
+print(y)
